@@ -1,0 +1,86 @@
+
+<!Doctype HTML> 
+<html> 
+
+<link href='/static//stylesheets/style.css ' rel='stylesheet'>
+
+<style>
+
+
+</style> 
+
+
+<head> 
+	<title> </title> 
+</head> 
+
+<body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/295/295128.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-wrapper">
+
+            <h3 class="login-text"><i class="bi bi-person-circle ac-logo"></i>User Login</h3>
+            {{!-- <div class="row">
+                <div class="col-md-6">
+                    <h3>{{errors}}</h3>
+                </div>
+            </div> --}}
+        
+            <form method="post" action="/home">
+                <div class="item"><input class="input" type="text" placeholder="Username" required name="logEmail"></div> 
+                <div class="item"><input class="input" type="password" placeholder="Password" required name="logPass"> </div>
+                <!-- <span class="remember"> <a href="#">Forgot Password?</a> </span> -->
+
+                <div class="item submit"><button type="submit">Submit</button></div>
+            </form>
+            <!-- <h2><span>OR</span></h2> -->
+         
+            <!-- <div class="social-media">
+
+                <a href="#"><div class="icons8-google social-mediaImg"></div></a> 
+                <a href="#"><div class="icons8-facebook-circled social-mediaImg"></div></a> 
+                <a href="#"><div class="icons8-twitter social-mediaImg"></div></a> 
+  
+            </div> -->
+            <div>
+                <span class="ac">Don't have an Account? <a href="/">Sign Up</a></span>
+            </div>
+            
+            <button class="adlog"><a href="/admin-login" style="text-decoration: none;">Admin Login</a></button>
+        </div>
+        
+
+    </div>
+       <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    {{!-- {{#if loginStatus}}
+                    <h4>Logged out Successfully...!!</h4>
+                    {{/if}} --}}
+                
+                </div>
+            </div>
+        </div>
+       </section>
+</body>
+
+</html>
+	
+</body>	
+</html>

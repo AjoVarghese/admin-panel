@@ -1,0 +1,51 @@
+
+
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>{{title}}</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/295/295128.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	
+	<link href='/static/stylesheet/style.css ' rel='stylesheet'>
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <div class="container-wrapper">
+
+            <h3 class="login-text"><i class="bi bi-person-circle ac-logo"></i>Create Account</h3>
+
+            <form method="post" action="/">
+                <div class="item"><input class="input" type="text" placeholder="Name" name="name" required></div>
+                <div class="item"><input class="input" type="email" placeholder="Email" name="email" required></div>
+                <div class="item"><input class="input" type="password" placeholder="Password" name="password" required> </div>
+          
+                 
+                <div class="item submit"><button type="submit"><b>Submit</b></button></div>
+            </form>
+			<div>
+				<p >Already have an account?<a href="/user-login">Login</a></p>
+			</div>
+			{{!-- <button class="adlog"><a href="/admin-login" style="text-decoration: none;">Admin Login</a></button> --}}
+			
+
+            
+			
+        </div>
+
+		
+
+    </div>
+</body>
+
+</html>
+
+

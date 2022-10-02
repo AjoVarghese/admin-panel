@@ -1,0 +1,38 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/add-user.css">
+</head>
+<body>
+    <form action="/add-user" method="post">
+
+<!-- Form Title -->
+		<h1>Create New User</h1>
+
+		<fieldset>
+
+			{{!-- <legend><span class="number">1</span> Your basic <abbr title="Information">info</abbr></legend> --}}
+<!-- Name Input -->
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name">
+<!-- E-mail Input -->
+			<label for="mail">E-Mail:</label>
+			<input type="email" id="mail" name="email">
+<!-- Password Input -->
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+
+		</fieldset>
+
+		<button type="submit">Add User</button>
+
+		</form>
+</body>
+</html>
